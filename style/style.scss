@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+// Colors
+// Primary
+
+$orange: hsl(26, 100%, 55%);
+$pale-orange: hsl(25, 100%, 94%);
+
+// Neutral
+
+$very-dark-blue: hsl(220, 13%, 13%);
+$dark-grayish-blue: hsl(219, 9%, 45%);
+$grayish-blue: hsl(220, 14%, 75%);
+$light-grayish-blue: hsl(223, 64%, 98%);
+$white: hsl(0, 0%, 100%);
+$black: hsla(0, 0%, 0%,0.75%);     /*with 75% opacity for lightbox background*/
+
+// global settings
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+h1,h2,h2{
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+}
+#btn{
+    background: transparent;
+    border: none;
+}
+a{
+    cursor: pointer; 
+}
+
+
+// navbar setting
+.cart-size{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+.cart-size2{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+#navbarSupportedContent > ul > li >a{
+    color: $grayish-blue;
+}
+#navbarSupportedContent > ul > li >a:hover{
+    color: $orange;
+}
+body > nav{
+    background-color: $white;
+}
+#menu{
+    border: none;
+ }
+
+// product section
+
+.sml-img{
+    flex-basis: 24%;
+}
+.img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.dis-flex{
+    display: flex;
+    align-items: center;
+}
+
+// right col
+body > section > div > div:nth-child(2) > h3{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: $orange;
+}
+body > section > div > div:nth-child(2) > h1{
+    font-weight: 700;
+}
+body > section > div > div:nth-child(2) > p{
+    color: $dark-grayish-blue;
+    font-size: 1rem;
+}
+body > section > div > div:nth-child(2) > div:nth-child(4) > h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+body > section > div > div:nth-child(2) > div.dis-flex.align-center > span{
+    background-color: $pale-orange;
+    border-radius: 5px;
+    color: $orange;
+    font-weight: 700;
+    width: 3rem;
+    height: 1.5rem;
+    text-align: center;
+}
+body > section > div > div:nth-child(2) > h2{
+    text-decoration: line-through;
+    font-size: 1rem;
+    color: $grayish-blue;
+}
+body > section > div > div:nth-child(2) > div.product-counter.dis-flex > div.add-to-cart.dis-flex.group1 > h2{
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem;
+    color: $white;
+}
+body > section > div > div:nth-child(2) > div.product-counter.dis-flex > div.add-to-cart.dis-flex.group1 > img{
+    color: $white;
+}
+.group1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $orange;
+    width: 15rem;
+    border-radius: 6px;
+    box-shadow: 0px 20px 8px $pale-orange ;
+}
+body > section > div > div:nth-child(2) > div.product-counter.dis-flex > div.dis-flex.group2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $light-grayish-blue;
+    width: 10rem;
+    border-radius: 6px;
+    height: 2.8rem;
+    padding: 1rem;
+}
+.count{
+    font-weight: bold;
+}
+#plus{
+    cursor: pointer;
+}
+#minus,.add-to-cart{
+    cursor: pointer;
+}
+
+
+
+
+
+// cart
+body > div.cart-projection{
+    position: absolute;
+    right: 5%;
+    top: 120px;
+    
+}
+
+.cart-projection{
+    right: 0;
+    width: 20rem;
+    border: 1px solid red;
+    padding: 0.9rem;
+    border-radius: 6px;
+    box-shadow: -10px 10px 10px  $light-grayish-blue,10px 10px 10px $light-grayish-blue ;
+}
+.cart-projection span,.cart-projection h3{
+    font-size: 16px;
+}
+.cart-projection h2{
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+body > div.cart-projection > div > div:nth-child(2) > h3 > span:nth-child(2){
+    color: black;
+    font-weight: bold;
+}
+body > div.cart-projection > div > div:nth-child(2){
+    font-size: 16px;
+    color: $grayish-blue;
+}
+
+.cart-img{
+    width: 50px;
+    height: 50px;
+}
+.cart-second-row{
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.5rem;
+}
+.cart-btn{
+    background-color: $orange;
+    color: $white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+.none{
+    display: none;
+}
+
+

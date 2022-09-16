@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+/*with 75% opacity for lightbox background*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+h1, h2, h2 {
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+}
+
+#btn {
+  background: transparent;
+  border: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+.cart-size {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.cart-size2 {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+#navbarSupportedContent > ul > li > a {
+  color: hsl(220deg, 14%, 75%);
+}
+
+#navbarSupportedContent > ul > li > a:hover {
+  color: hsl(26deg, 100%, 55%);
+}
+
+body > nav {
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+#menu {
+  border: none;
+}
+
+.sml-img {
+  flex-basis: 24%;
+}
+
+.img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dis-flex {
+  display: flex;
+  align-items: center;
+}
+
+body > section > div > div:nth-child(2) > h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: hsl(26deg, 100%, 55%);
+}
+
+body > section > div > div:nth-child(2) > h1 {
+  font-weight: 700;
+}
+
+body > section > div > div:nth-child(2) > p {
+  color: hsl(219deg, 9%, 45%);
+  font-size: 1rem;
+}
+
+body > section > div > div:nth-child(2) > div:nth-child(4) > h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+body > section > div > div:nth-child(2) > div.dis-flex.align-center > span {
+  background-color: hsl(25deg, 100%, 94%);
+  border-radius: 5px;
+  color: hsl(26deg, 100%, 55%);
+  font-weight: 700;
+  width: 3rem;
+  height: 1.5rem;
+  text-align: center;
+}
+
+body > section > div > div:nth-child(2) > h2 {
+  text-decoration: line-through;
+  font-size: 1rem;
+  color: hsl(220deg, 14%, 75%);
+}
+
+body > section > div > div:nth-child(2) > div.product-counter.dis-flex > div.add-to-cart.dis-flex.group1 > h2 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5rem;
+  color: hsl(0deg, 0%, 100%);
+}
+
+body > section > div > div:nth-child(2) > div.product-counter.dis-flex > div.add-to-cart.dis-flex.group1 > img {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.group1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(26deg, 100%, 55%);
+  width: 15rem;
+  border-radius: 6px;
+  box-shadow: 0px 20px 8px hsl(25deg, 100%, 94%);
+}
+
+body > section > div > div:nth-child(2) > div.product-counter.dis-flex > div.dis-flex.group2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(223deg, 64%, 98%);
+  width: 10rem;
+  border-radius: 6px;
+  height: 2.8rem;
+  padding: 1rem;
+}
+
+.count {
+  font-weight: bold;
+}
+
+#plus {
+  cursor: pointer;
+}
+
+#minus, .add-to-cart {
+  cursor: pointer;
+}
+
+body > div.cart-projection {
+  position: absolute;
+  right: 5%;
+  top: 120px;
+}
+
+.cart-projection {
+  right: 0;
+  width: 20rem;
+  border: 1px solid red;
+  padding: 0.9rem;
+  border-radius: 6px;
+  box-shadow: -10px 10px 10px hsl(223deg, 64%, 98%), 10px 10px 10px hsl(223deg, 64%, 98%);
+}
+
+.cart-projection span, .cart-projection h3 {
+  font-size: 16px;
+}
+
+.cart-projection h2 {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+body > div.cart-projection > div > div:nth-child(2) > h3 > span:nth-child(2) {
+  color: black;
+  font-weight: bold;
+}
+
+body > div.cart-projection > div > div:nth-child(2) {
+  font-size: 16px;
+  color: hsl(220deg, 14%, 75%);
+}
+
+.cart-img {
+  width: 50px;
+  height: 50px;
+}
+
+.cart-second-row {
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.5rem;
+}
+
+.cart-btn {
+  background-color: hsl(26deg, 100%, 55%);
+  color: hsl(0deg, 0%, 100%);
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.none {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
