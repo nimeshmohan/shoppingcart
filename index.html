@@ -17,11 +17,11 @@
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg m-3 p-3 ">
+  <!-- <nav class="navbar navbar-expand-lg m-3 p-3 ">
     <div class="container border-bottom p-3">
-      <!-- <button onclick="rmvMenu()" id="menu" class="navbar-toggler me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+      <button onclick="rmvMenu()" id="menu" class="navbar-toggler me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <img onclick="rmvMenu()" id="menu" class="navbar-toggler me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" src="images/icon-menu.svg" alt="">
-      <!-- </button> -->
+      
       <img src="images/logo.svg" alt="" class="img-fluid">
       
       <div class="collapse navbar-collapse menubar" id="navbarSupportedContent">
@@ -44,12 +44,78 @@
         </ul>
           <div class="">
             <button onclick="toggleManu()" id="btn"><img src="images/icon-cart.svg" alt="" class="img-fluid me-3 cart-size dropdown"></button>
-            <!-- <img src="images/icon-cart.svg" alt="" class="img-fluid me-3 cart-size dropdown"> -->
+            
             <img  src="images/image-avatar.png" alt="" class="img-fluid cart-size2 ">
           </div>
       </div>
     </div>
-  </nav>
+  </nav> -->
+
+<nav class="container">
+  <div class="logo">
+    <img src="images/logo.svg" alt="logo">
+  </div>
+  <ul class="nav-bar">
+    <li class="nav-item">
+      <a class="hr1" href="#">Collection</a>
+    </li>
+    <li class="nav-item">
+      <a class="hr2" href="#">Men</a>
+      
+    </li>
+    <li class="nav-item">
+      <a class="hr3" href="#">Women</a>
+    </li>
+    <li class="nav-item">
+      <a class="hr4" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="hr5" href="#">contact</a>
+    </li>
+  </ul>
+  <div class="">
+    <button onclick="toggleManu()" id="btn"><img src="images/icon-cart.svg" alt="" class="img-fluid me-3 cart-size dropdown"></button>
+    <img  src="images/image-avatar.png" alt="" class="img-fluid cart-size2 ">
+  </div>
+</nav>
+<!-- for mobile navbar -->
+<section class="mobile-nav container">
+  <div class="mob-menu">
+    <img onclick="menuBar()" src="images/icon-menu.svg" alt="">
+  </div>
+  <div class="logo">
+    <img src="images/logo.svg" alt="logo">
+  </div>
+  <div class="">
+    <button onclick="toggleManu()" id="btn"><img src="images/icon-cart.svg" alt="" class="img-fluid me-3 cart-size dropdown"></button>
+    <img  src="images/image-avatar.png" alt="" class="img-fluid cart-size2 ">
+  </div>
+</section>
+<section id="mob-nav-items" class="main-menu none">
+  <div class="mob-nav">
+    <img onclick="menuBar()" src="images/icon-close.svg" alt="">
+    <ul class="nav-bar">
+      <li >
+        <a  href="#">Collection</a>
+      </li>
+      <li >
+        <a  href="#">Men</a>
+      </li>
+      <li >
+        <a  href="#">Women</a>
+      </li>
+      <li >
+        <a  href="#">About</a>
+      </li>
+      <li >
+        <a  href="#">contact</a>
+      </li>
+    </ul>
+  </div>
+
+</section>
+
+
 <section class="container my-3 pt-5">
   <div class="row mt-3 ">
     <div class="col-lg-5 col-md-11">
@@ -67,7 +133,6 @@
         <div class="sml-img">
           <img src="images/image-product-4-thumbnail.jpg" alt="" width="100%" class="tmb-img rounded-2">
         </div>
-
       </div>
     </div>
     <div class="col-lg-5 col-md-11 mt-5 ps-0 right-col">

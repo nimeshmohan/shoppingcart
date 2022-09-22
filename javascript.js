@@ -35,7 +35,12 @@ function decriment(){
     num.innerHTML=count+"=";
     totalAmount.innerHTML=count*120;
 }
+// mobile nav menu
 
+var menuSlide =document.querySelector('#mob-nav-items')
+function menuBar(){
+    menuSlide.classList.toggle('none')
+}
 
 // cart toggle menu
 var drop = document.querySelector('#cart');
